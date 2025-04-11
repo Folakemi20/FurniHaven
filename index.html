@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Furnihaven</title>
+  </head>
+  <style>
+    .animate-fade-in {
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+  <body>
+    <nav
+      class="relative bg-cover bg-no-repeat h-screen w-full flex items-center justify-center text-center"
+      style="background-image: url('./image/Bedroom-image.webp')"
+    >
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+      <div class="z-10">
+        <nav
+          class="absolute top-0 left-0 flex items-center justify-between w-full p-4"
+        >
+          <div class="flex items-center space-x-2">
+            <img
+              class="w-10 h-10 rounded-full cursor-pointer"
+              src="./image/furnihaven-logo.jpg"
+              alt="FurniHaven Logo"
+            />
+            <h1 class="text-white text-2xl italic font-bold cursor-pointer">
+              FurniHaven
+            </h1>
+          </div>
+          <div
+            class="hidden text-[20px] text-white font-bold space-x-6 md:flex"
+          >
+            <a href="#" class="hover:opacity-50">Home</a>
+            <a href="#" class="hover:opacity-50">About</a>
+            <a href="#" class="hover:opacity-50">Product</a>
+            <a href="#" class="hover:opacity-50">Collection</a>
+            <a href="#" class="hover:opacity-50">Contact</a>
+          </div>
+
+          <div class="flex gap-4">
+            <ion-icon
+              class="text-white font-thin w-8 h-8 hover:opacity-50 cursor-pointer"
+              name="search"
+            ></ion-icon>
+            <ion-icon
+              class="text-white font-thin w-8 h-8 hover:opacity-50 cursor-pointer"
+              name="cart"
+            ></ion-icon>
+            <p class="text-white h-10 hover:opacity-50 cursor-pointer">|</p>
+            <a
+              class="text-white text-[20px] font-semibold hover:opacity-50 cursor-pointer"
+              href="#"
+              >Login</a
+            >
+          </div>
+        </nav>
+        <h1 class="text-2xl lg:text-5xl text-white font-bold">
+          Find The Perfect Furniture To <br />
+          Complete Your Home
+        </h1>
+        <p class="text-sm lg:text-lg text-white mt-4">
+          We Specialize in buying and selling high-quality, marketable
+          furniture, <br />
+          each piece reflecting our unique aesthetics.
+        </p>
+
+        <button
+          class="bg-white px-8 py-2 mt-10 rounded-full hover:opacity-50 cursor-pointer font-semibold"
+        >
+          Shop Now
+        </button>
+
+        <div>
+          <button
+            class="border border-white px-4 py-4 mt-25 rounded-full hover:opacity-50 cursor-pointer"
+          >
+            <img src="./image/down-arrow.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container mx-auto my-15 animate-fade-in">
+      <h1 class="text-2xl lg:text-5xl text-center font-semibold">
+        Our New Collections
+      </h1>
+      <p class="text-sm lg:text-lg text-center mt-4">
+        These products are crafted using wood sourced <br />
+        from responsibly certified forests.
+      </p>
+      <div
+        class="container pd-18 mx-auto px-6 md:px-0 mt-20 flex flex-col md:flex-row gap-6 justify-center"
+      >
+        <div
+          class="px-4 md:px-6 lg:px-4 py-18 bg-gray-100 border rounded-2xl border-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition"
+        >
+          <div class="flex flex-row -mt-15 justify-between">
+            <div>
+              <button
+                class="bg-white px-5 py-1 rounded-full hover:opacity-50 font-semibold"
+              >
+                Best Sale
+              </button>
+            </div>
+
+            <div class="flex flex-row mt-2">
+              <p class="bg-amber-300 w-3 h-3 rounded-full"></p>
+              <p class="bg-black w-3 h-3 rounded-full"></p>
+              <p class="bg-gray-800 w-3 h-3 rounded-full"></p>
+              <p class="bg-amber-950 w-3 h-3 rounded-full"></p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-80 h-50 mt-10"
+              src="./image/Avondale-wood-leg.avif"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-row gap-6 mt-10">
+            <div class="text-left">
+              <p class="text-lg font-bold">Avondale Wood Leg Sofa</p>
+              <p class="text-lg font-bold">$180.00</p>
+            </div>
+            <div
+              class="bg-white w-8 h-8 rounded-2xl hover:bg-yellow-300 cursor-pointer"
+            >
+              <img class="mt-1 ml-1" src="./image/paper-bag.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-4 md:px-6 lg:px-4 py-18 bg-gray-100 border rounded-2xl border-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition"
+        >
+          <div class="flex flex-row -mt-15 justify-between">
+            <button
+              class="bg-white px-5 py-1 rounded-full hover:opacity-50 font-semibold"
+            >
+              Top Rated
+            </button>
+            <div class="flex flex-row mt-2">
+              <p class="bg-amber-300 w-3 h-3 rounded-full"></p>
+              <p class="bg-black w-3 h-3 rounded-full"></p>
+              <p class="bg-gray-800 w-3 h-3 rounded-full"></p>
+              <p class="bg-amber-950 w-3 h-3 rounded-full"></p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-80 h-50 mt-10"
+              src="./image/Zuma-outdoor.avif"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-row gap-6 mt-10">
+            <div class="text-left">
+              <p class="text-lg font-bold">Zuma Outdoor Upholstered</p>
+              <p class="text-lg font-bold">$280.00</p>
+            </div>
+            <div
+              class="bg-white w-8 h-8 rounded-2xl hover:bg-yellow-300 cursor-pointer"
+            >
+              <img class="mt-1 ml-1" src="./image/paper-bag.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-4 md:px-6 lg:px-4 py-18 bg-gray-100 border rounded-2xl border-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition"
+        >
+          <div class="flex flex-row -mt-15 justify-between">
+            <button
+              class="bg-white px-5 py-1 rounded-full hover:opacity-50 font-semibold"
+            >
+              Best Price
+            </button>
+            <div class="flex flex-row mt-2">
+              <p class="bg-amber-300 w-3 h-3 rounded-full"></p>
+              <p class="bg-black w-3 h-3 rounded-full"></p>
+              <p class="bg-gray-800 w-3 h-3 rounded-full"></p>
+              <p class="bg-amber-950 w-3 h-3 rounded-full"></p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-80 h-50 mt-10"
+              src="./image/Pershing-Leather.png"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-row gap-6 mt-10">
+            <div class="text-left">
+              <p class="text-lg font-bold">Pershing Leather Curved Chair</p>
+              <p class="text-lg font-bold">$290.00</p>
+            </div>
+            <div
+              class="bg-white w-8 h-8 rounded-2xl hover:bg-yellow-300 cursor-pointer"
+            >
+              <img class="mt-1 ml-1 h" src="./image/paper-bag.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="container pd-18 mx-auto px-6 md:px-0 mt-8 flex flex-col md:flex-row gap-6 justify-center animate-fade-in"
+    >
+      <div
+        class="px-4 md:px-6 lg:px-4 py-18 bg-gray-100 border rounded-2xl border-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition"
+      >
+        <div class="flex flex-row -mt-15 justify-between">
+          <div>
+            <button
+              class="bg-white px-5 py-1 rounded-full hover:opacity-50 font-semibold"
+            >
+              Top Rated
+            </button>
+          </div>
+
+          <div class="flex flex-row mt-2">
+            <p class="bg-amber-300 w-3 h-3 rounded-full"></p>
+            <p class="bg-black w-3 h-3 rounded-full"></p>
+            <p class="bg-gray-800 w-3 h-3 rounded-full"></p>
+            <p class="bg-amber-950 w-3 h-3 rounded-full"></p>
+          </div>
+        </div>
+        <div>
+          <img
+            class="w-80 h-50 mt-10"
+            src="./image/powell-lounge-chair.png"
+            alt=""
+          />
+        </div>
+        <div class="flex flex-row gap-6 mt-10">
+          <div class="text-left">
+            <p class="text-lg font-bold">Powel Lounge Chair</p>
+            <p class="text-lg font-bold">$200.00</p>
+          </div>
+          <div
+            class="bg-white w-8 h-8 rounded-2xl hover:bg-yellow-300 cursor-pointer"
+          >
+            <img class="mt-1 ml-1" src="./image/paper-bag.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="px-4 md:px-6 lg:px-4 py-18 bg-gray-100 border rounded-2xl border-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition"
+      >
+        <div class="flex flex-row -mt-15 justify-between">
+          <button
+            class="bg-white px-5 py-1 rounded-full hover:opacity-50 font-semibold"
+          >
+            Best Price
+          </button>
+          <div class="flex flex-row mt-2">
+            <p class="bg-amber-300 w-3 h-3 rounded-full"></p>
+            <p class="bg-black w-3 h-3 rounded-full"></p>
+            <p class="bg-gray-800 w-3 h-3 rounded-full"></p>
+            <p class="bg-amber-950 w-3 h-3 rounded-full"></p>
+          </div>
+        </div>
+        <div>
+          <img
+            class="w-80 h-50 mt-10"
+            src="./image/Infinite-swivel.avif"
+            alt=""
+          />
+        </div>
+        <div class="flex flex-row gap-6 mt-10">
+          <div class="text-left">
+            <p class="text-lg font-bold">Infiniti Swivel Chair</p>
+            <p class="text-lg font-bold">$250.00</p>
+          </div>
+          <div
+            class="bg-white w-8 h-8 rounded-2xl hover:bg-yellow-300 cursor-pointer"
+          >
+            <img class="mt-1 ml-1" src="./image/paper-bag.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="px-4 md:px-6 lg:px-4 py-18 bg-gray-100 border rounded-2xl border-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition"
+      >
+        <div class="flex flex-row -mt-15 justify-between">
+          <button
+            class="bg-white px-5 py-1 rounded-full hover:opacity-50 font-semibold"
+          >
+            Best Sale
+          </button>
+          <div class="flex flex-row mt-2">
+            <p class="bg-amber-300 w-3 h-3 rounded-full"></p>
+            <p class="bg-black w-3 h-3 rounded-full"></p>
+            <p class="bg-gray-800 w-3 h-3 rounded-full"></p>
+            <p class="bg-amber-950 w-3 h-3 rounded-full"></p>
+          </div>
+        </div>
+
+        <div>
+          <img class="w-80 h-50 mt-10" src="./image/Cerca-striped.png" alt="" />
+        </div>
+        <div class="flex flex-row gap-6 mt-10">
+          <div class="text-left">
+            <p class="text-lg font-bold">Cerca Striped Chair</p>
+            <p class="text-lg font-bold">$220.00</p>
+          </div>
+          <div
+            class="bg-white w-8 h-8 rounded-2xl hover:bg-yellow-300 cursor-pointer"
+          >
+            <img
+              class="mt-1 ml-1 hover:text-white"
+              src="./image/paper-bag.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4 p-10 text-center">
+      <button
+        class="border px-6 py-4 rounded-full hover:opacity-50 font-semibold cursor-pointer"
+      >
+        See More Collection
+      </button>
+    </div>
+
+    <!-- Recommended Product -->
+    <section class="container mx-auto my-15 px-4">
+      <h1 class="text-[25px] lg:text-[35px] text-center font-semibold">
+        Most Recommended Product For You
+      </h1>
+      <p class="text-[13px] lg:text-[20px] text-center">
+        Discover top-recommended furniture tailored to your style and needs.
+        Elevate your <br />
+        home with pieces designed for comfort and elegance.
+      </p>
+
+      <div class="flex flex-col lg:flex-row w-full lg:h-[630px] gap-6 mt-10">
+        <!--Livingroom Furniture -->
+        <div class="lg:w-[50%] lg:h-[630px]">
+          <div class="relative">
+            <img
+              class="w-full h-[300px] lg:h-[630px] rounded-4xl"
+              src="./image/Seating room.jpg"
+              alt=""
+            />
+            <div class="absolute bottom-1 right-12">
+              <p class="font-semibold text-white text-[30px]">
+                Living Room Furnitures
+              </p>
+              <div class="flex flex-col gap-4">
+                <div class="">
+                  <button
+                    class="bg-white px-6 py-2 rounded-full hover:opacity-50 cursor-pointer font-semibold"
+                  >
+                    View all products
+                    <img
+                      class="w-4 h-4 ml-39 -mt-5 font-semibold"
+                      src="./image/up-right-arrow.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bedroom and Office Furniture  -->
+        <div
+          class="flex flex-col space-y-6 lg:space-y-4 lg:w-[50%] md:h-[630px]"
+        >
+          <!-- Bedroom Furniture -->
+          <div class="relative">
+            <img
+              class="w-full h-[300px] lg:h-[300px] rounded-4xl"
+              src="./image/Bedroom-image.webp"
+              alt=""
+            />
+            <div class="absolute bottom-1 right-12">
+              <p class="font-semibold text-white text-[30px]">
+                Bedroom Furnitures
+              </p>
+              <div class="flex flex-col gap-4">
+                <div class="">
+                  <button
+                    class="bg-white px-6 py-2 rounded-full hover:opacity-50 cursor-pointer font-semibold"
+                  >
+                    View all products
+                    <img
+                      class="w-4 h-4 ml-39 -mt-5 font-semibold"
+                      src="./image/up-right-arrow.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Office Furniture -->
+
+          <div class="relative">
+            <img
+              class="w-full h-[300px] lg:h-[300px] rounded-4xl"
+              src="./image/office-furniture.webp"
+              alt=""
+            />
+            <div class="absolute bottom-1 right-12">
+              <p class="font-semibold text-white text-[30px]">
+                Office Furnitures
+              </p>
+              <div class="flex flex-col gap-4">
+                <div class="">
+                  <button
+                    class="bg-white px-6 py-2 rounded-full hover:opacity-50 cursor-pointer font-semibold"
+                  >
+                    View all products
+                    <img
+                      class="w-4 h-4 ml-39 -mt-5 font-semibold"
+                      src="./image/up-right-arrow.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dinning Furniture -->
+    <section class="container mx-auto my-15 px-4">
+      <div class="relative">
+        <img
+          class="w-full h-[300px] lg:h-[630px] rounded-4xl object-cover"
+          src="./image/dining sets.jpg"
+          alt=""
+        />
+        <div class="absolute bottom-1 right-12">
+          <p class="font-semibold text-white text-[30px]">Dining Furniture</p>
+          <div class="flex flex-col gap-4">
+            <div class="">
+              <button
+                class="bg-white px-6 py-2 rounded-full hover:opacity-50 cursor-pointer font-semibold"
+              >
+                View all products
+                <img
+                  class="w-4 h-4 ml-39 -mt-5 font-semibold"
+                  src="./image/up-right-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto my-15">
+      <h1 class="text-[25px] lg:text-[35px] text-center font-semibold">
+        What We Can Offer You
+      </h1>
+      <p class="text-[13px] lg:text-[20px] text-center">
+        High quality, stylish, and functional furniture designed to elevate your
+        <br />
+        space with comfort and elegance.
+      </p>
+      <div class="container mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="bg-gray-100 border-gray-50 rounded-lg shadow-sm hover:shadow-md hover:scale-105 transition p-6"
+          >
+            <img class="mx-auto" src="./image/box.png" alt="" />
+            <h2 class="text-lg font-semibold text-gray-800">Made Your Order</h2>
+            <p class="text-gray-600 mt-2">All pieces made to order for you.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-gray-100 border-gray-50 rounded-lg shadow-sm hover:shadow-md hover:scale-105 transition p-6"
+          >
+            <img class="mx-auto" src="./image/delivery-truck.png" alt="" />
+            <h2 class="text-lg font-semibold text-gray-800">Free Delivery</h2>
+            <p class="text-gray-600 mt-2">Free delivery for order world-wide</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-gray-100 border-gray-50 rounded-lg shadow-sm hover:shadow-md hover:scale-105 transition p-6"
+          >
+            <img class="mx-auto" src="./image/sync.png" alt="" />
+            <h2 class="text-lg font-semibold text-gray-800">Free Exchange</h2>
+            <p class="text-gray-600 mt-2">Free exchange on all products</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto mt-15">
+      <h1 class="text-[25px] lg:text-[35px] text-center font-semibold">
+        Word From Our Happy Customers
+      </h1>
+      <p class="text-[13px] lg:text-[20px] text-center">
+        Hear from our clients as they share how FurniSphere <br />
+        furniture transforms their homes
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+        <!-- Outer Testimonial Card -->
+        <div
+          class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-90 transition duration-300 ease-in-out"
+        >
+          <!-- Inner Card -->
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2">
+              <div class="">
+                <img
+                  class="w-16 h-16 rounded-full mb-8"
+                  src="./image/esther howard.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="ml-4 mt-2">
+                <p class="font-bold">Esther Howard</p>
+                <p class="text-gray-600">CEO, Wells Fargo</p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <img class="ml-[90%] -mt-27" src="./image/star.png" alt="" />
+              </div>
+              <div>
+                <p class="ml-[97%] -mt-28 font-bold text-amber-400">4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-80 p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">
+              <img src="./image/sofa chair.jpeg" alt="" />
+            </p>
+          </div>
+          <div class="mt-8 text-left font-bold text-gray-800">
+            Absolutely love my new sofa
+          </div>
+          <p class="text-left mt-4">
+            The quality is outstanding, and it fits <br />
+            perfectly in my living room. Great service <br />
+            and fast delivery!
+          </p>
+        </div>
+
+        <div
+          class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-90 transition duration-300 ease-in-out"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2">
+              <div class="">
+                <img
+                  class="w-16 h-16 rounded-full mb-8"
+                  src="./image/jenny wilson.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="ml-4 mt-2">
+                <p class="font-bold">Jenny Wilson</p>
+                <p class="text-gray-600">CFO, Nielsen</p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <img class="ml-[90%] -mt-27" src="./image/star.png" alt="" />
+              </div>
+              <div>
+                <p class="ml-[97%] -mt-28 font-bold text-amber-400">4.3</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-80 p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">
+              <img
+                class="w-[45%] ml-20"
+                src="./image/stylish durable furniture.jpeg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="mt-8 text-left font-bold text-gray-800">
+            Stylish and durable furniture
+          </div>
+          <p class="text-left mt-4">
+            I bougth a sofa set, and it looks even better <br />
+            in person. Highly recommended!
+          </p>
+        </div>
+
+        <div
+          class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-90 transition duration-300 ease-in-out"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2">
+              <div class="">
+                <img
+                  class="w-16 h-16 rounded-full mb-8"
+                  src="./image/ronnie wood.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="ml-4 mt-2">
+                <p class="font-bold">Ronald Richards</p>
+                <p class="text-gray-600">CMO, Advanta Inc</p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <img class="ml-[90%] -mt-27" src="./image/star.png" alt="" />
+              </div>
+              <div>
+                <p class="ml-[97%] -mt-28 font-bold text-amber-400">4.4</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-80 p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">
+              <img class="w-[45%] ml-20" src="./image/bed.jpg" alt="" />
+            </p>
+          </div>
+          <div class="mt-8 text-left font-bold text-gray-800">
+            Exceptional craftsmanship
+          </div>
+          <p class="text-left mt-4">
+            My bedroom set is both elegant and sturdy. <br />
+            Couldn't be happier with my purchase!
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+        <!-- Outer Testimonial Card -->
+        <div
+          class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-90 transition duration-300 ease-in-out"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2">
+              <div class="">
+                <img
+                  class="w-16 h-16 rounded-full mb-8"
+                  src="./image/leslie alexander.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="ml-4 mt-2">
+                <p class="font-bold">Leslie Alexander</p>
+                <p class="text-gray-600">CPO, Gillette</p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <img class="ml-[90%] -mt-27" src="./image/star.png" alt="" />
+              </div>
+              <div>
+                <p class="ml-[97%] -mt-28 font-bold text-amber-400">4.2</p>
+              </div>
+            </div>
+          </div>
+          <!-- Inner Card -->
+          <div class="bg-gray-80 p-4 rounded-xl shadow-sm">
+            <p class="text-white italic">
+              <img class="ml-13" src="./image/beautiful.jpg" alt="" />
+            </p>
+          </div>
+          <div class="mt-8 text-left font-bold text-gray-800">
+            Smooth shopping experience
+          </div>
+          <p class="text-left mt-4">
+            The website was easy to navigate, and my <br />
+            order arrived on time and well -packaged.
+          </p>
+        </div>
+
+        <div
+          class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-90 transition duration-300 ease-in-out"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2">
+              <div class="">
+                <img
+                  class="w-16 h-16 rounded-full mb-8"
+                  src="./image/jane cooper.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="ml-4 mt-2">
+                <p class="font-bold">Jane Cooper</p>
+                <p class="text-gray-600">CMO, Batz Group</p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <img class="ml-[90%] -mt-27" src="./image/star.png" alt="" />
+              </div>
+              <div>
+                <p class="ml-[97%] -mt-28 font-bold text-amber-400">4.4</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-80 p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">
+              <img class="w-[70%] ml-10" src="./image/great.jpg" alt="" />
+            </p>
+          </div>
+          <div class="mt-8 text-left font-bold text-gray-800">
+            Beautiful designs with comfort
+          </div>
+          <p class="text-left mt-4">
+            My accent chair is both stylish and cozy. It's <br />
+            now my favorite spot to relax.
+          </p>
+        </div>
+
+        <div
+          class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-90 transition duration-300 ease-in-out"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2">
+              <div class="">
+                <img
+                  class="w-16 h-16 rounded-full mb-8"
+                  src="./image/kritsin watson.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="ml-4 mt-2">
+                <p class="font-bold">Kristin Watson</p>
+                <p class="text-gray-600">CEO, Metaful</p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <img class="ml-[90%] -mt-27" src="./image/star.png" alt="" />
+              </div>
+              <div>
+                <p class="ml-[97%] -mt-28 font-bold text-amber-400">4.6</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-80 p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">
+              <img class="w-[70%] ml-12" src="./image/bed.jpg" alt="" />
+            </p>
+          </div>
+          <div class="mt-8 text-left font-bold text-gray-800">
+            Great value for price
+          </div>
+          <p class="text-left mt-4">
+            The coffee bed I ordered exceeded my <br />
+            expectations. Will definitely shop here again!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="items-center justify-center text-center my-15">
+      <h1 class="text-[25px] lg:text-[35px] font-semibold">
+        You've Got Questions & We've <br />
+        Got Answers!
+      </h1>
+      <p class="text-[13px] lg:text-[20px]">Still have a questions in mind?</p>
+      <div class="flex flex-col gap-4">
+        <div class="mt-4">
+          <button
+            class="bg-black px-8 py-6 rounded-full text-white hover:opacity-50 cursor-pointer font-semibold"
+          >
+            Contact Us<img
+              class="w-4 h-4 ml-39 -mt-5 font-semibold"
+              src="./image/north_east_16dp_FFF_FILL0_wght400_GRAD0_opsz20.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </div>
+      <div class="container mx-auto p-4">
+        <div class="flex flex-col gap-4">
+          <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+              Frequently Asked Questions
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <!-- FAQ Card 1 -->
+              <div class="bg-white border border-black rounded-xl p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <h3 class="font-semibold text-lg">
+                    What is your return policy?
+                  </h3>
+                  <span
+                    id="arrow-faq1"
+                    class="text-xl cursor-pointer"
+                    onclick="toggleFAQ('faq1')"
+                    >↓</span
+                  >
+                </div>
+                <p id="faq1" class="text-gray-700 text-left hidden">
+                  We offer a 30-day return policy. Items must be unused and in
+                  original packaging.
+                </p>
+              </div>
+
+              <!-- FAQ Card 2 -->
+              <div class="bg-white border border-black rounded-xl p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <h3 class="font-semibold text-lg">
+                    How long does shipping take?
+                  </h3>
+                  <span
+                    id="arrow-faq2"
+                    class="text-xl cursor-pointer"
+                    onclick="toggleFAQ('faq2')"
+                    >↓</span
+                  >
+                </div>
+                <p id="faq2" class="text-gray-700 text-left hidden">
+                  Shipping usually takes 5–7 business days depending on your
+                  location.
+                </p>
+              </div>
+
+              <!-- FAQ Card 3 -->
+              <div class="bg-white border border-black rounded-xl p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <h3 class="font-semibold text-lg">
+                    Do you offer international shipping?
+                  </h3>
+                  <span
+                    id="arrow-faq3"
+                    class="text-xl cursor-pointer"
+                    onclick="toggleFAQ('faq3')"
+                    >↓</span
+                  >
+                </div>
+                <p id="faq3" class="text-gray-700 text-left hidden">
+                  Yes, we ship internationally. Rates and times vary by
+                  destination.
+                </p>
+              </div>
+
+              <!-- FAQ Card 4 -->
+              <div class="bg-white border border-black rounded-xl p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <h3 class="font-semibold text-lg">Can I change my order?</h3>
+                  <span
+                    id="arrow-faq4"
+                    class="text-xl cursor-pointer"
+                    onclick="toggleFAQ('faq4')"
+                    >↓</span
+                  >
+                </div>
+                <p id="faq4" class="text-gray-700 text-left hidden">
+                  Yes, contact support within 24 hours to make changes to your
+                  order.
+                </p>
+              </div>
+
+              <!-- FAQ Card 5 -->
+              <div class="bg-white border border-black rounded-xl p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <h3 class="font-semibold text-lg">
+                    Do you provide tracking?
+                  </h3>
+                  <span
+                    id="arrow-faq5"
+                    class="text-xl cursor-pointer"
+                    onclick="toggleFAQ('faq5')"
+                    >↓</span
+                  >
+                </div>
+                <p id="faq5" class="text-gray-700 text-left hidden">
+                  Yes, all orders come with tracking once they are shipped.
+                </p>
+              </div>
+
+              <!-- FAQ Card 6 -->
+              <div class="bg-white border border-black rounded-xl p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <h3 class="font-semibold text-lg">
+                    What payment methods are accepted?
+                  </h3>
+                  <span
+                    id="arrow-faq6"
+                    class="text-xl cursor-pointer"
+                    onclick="toggleFAQ('faq6')"
+                    >↓</span
+                  >
+                </div>
+                <p id="faq6" class="text-gray-700 text-left hidden">
+                  We accept credit cards, PayPal, and Apple Pay.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-600 pt-15 px-4">
+      <div
+        class="container mx-auto bg-gray-600 flex flex-col gap-8 lg:flex-row justify-between"
+      >
+        <div class="space-y-4">
+          <div class="flex items-center space-x-2">
+            <img
+              class="w-10 h-10 rounded-full cursor-pointer"
+              src="./image/furnihaven-logo.jpg"
+              alt="FurniHaven Logo"
+            />
+            <h1 class="text-white text-2xl italic font-bold cursor-pointer">
+              FurniHaven
+            </h1>
+          </div>
+          <div>
+            <p class="text-white mt-15">
+              We specialize in buying and selling high-quality, <br />
+              marketable furniture, each piece reflecting our unique <br />
+              aesthetic.
+            </p>
+          </div>
+        </div>
+
+        <div class="">
+          <b class="text-white text-[20px] italic">Qucik Menu</b>
+          <div class="text-white mt-4">
+            <div class="gap-8">
+              <p class="mt-4">Home</p>
+              <p class="mt-4">About us</p>
+              <p class="mt-4">Product</p>
+              <p class="mt-4">Collection</p>
+              <p class="mt-4">Contact us</p>
+            </div>
+          </div>
+        </div>
+        <!-- Legend -->
+        <div class="">
+          <b class="text-white text-[20px] italic">Legend</b>
+          <div class="text-white mt-4">
+            <div class="gap-8">
+              <p class="mt-4">Privacy Policy</p>
+              <p class="mt-4">Term and condition</p>
+              <p class="mt-4">Cookies policy</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resoureces -->
+        <div class="">
+          <b class="text-white text-[20px] italic">Resources</b>
+          <div class="text-white mt-4">
+            <div class="gap-8">
+              <p class="mt-4">Documentation</p>
+              <p class="mt-4">Blog</p>
+              <p class="mt-4">Papers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <hr />
+    <div class="bg-gray-700 flex flex-col gap-6 mx-auto">
+      <div class="container mx-auto flex justify-between flex-row px-4 md:px-6">
+        <b class="text-white mt-6">Copyright &copy; Some name</b>
+        <div class="flex flex-row gap-4 mt-6">
+          <i class="fab fa-twitter text-blue-500 text-2xl"></i>
+          <i class="fab fa-facebook text-blue-600 text-2xl"></i>
+          <i class="fab fa-instagram text-pink-500 text-2xl"></i>
+          <i class="fab fa-linkedin text-blue-700 text-2xl"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    function toggleFAQ(id) {
+      const content = document.getElementById(id);
+      const arrow = document.getElementById("arrow-" + id);
+
+      content.classList.toggle("hidden");
+      arrow.textContent = content.classList.contains("hidden") ? "↓" : "↑";
+    }
+  </script>
+</html>
