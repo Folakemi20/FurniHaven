@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>lOGIN PAGE</title>
+  </head>
+  <body>
+    <section class="flex flex-row h-screen w-full">
+      <div class="hidden lg:block lg:w-[60%]">
+        <img class="h-[100%] w-full" src="./image/login.jpg" alt="" />
+      </div>
+      <div class="w-full lg:w-[40%] p-4 lg:py-10 lg:px-20">
+        <div class="flex flex-row">
+            <div>
+                <img class="mt-1" src="./image/arrow_back_18dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="">
+            </div>
+            <div>
+                <a class="text-gray-500" href="index.html">Back</a>
+            </div>
+        </div>
+        <h1 class="text-center text-[30px] text-blue-950 font-semibold">
+          Get Statrted Now
+        </h1>
+        <p class="text-center text-[10px]">
+          Enter your credentials to access your account
+        </p>
+
+        <div class="flex flex-row gap-3 w-full mt-8">
+          <div
+            class="w-full px-4 pt-1 lg:w-[50%] h-10 rounded-2xl border border-black"
+          >
+            <div class="flex flex-row items-center cursor-pointer">
+              <div>
+                <img
+                  class="min-w-4 max-w-7 min-h-4 max-h-7"
+                  src="./image/google icon.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="truncate text-[14px]">Login with Google</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full px-4 pt-1 lg:w-[50%] h-10 rounded-2xl border border-black"
+          >
+            <div class="flex flex-row items-center cursor-pointer">
+              <div>
+                <img
+                  class="min-w-4 max-w-7 min-h-4 max-h-7"
+                  src="./image/apple icon.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="truncate text-[14px]">Login with Apple</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <fieldset class="border mt-6 border-b-0 border-r-0 border-l-0 ">
+          <legend class="text-center text-bold">
+            or
+          </legend>
+        </fieldset>
+        <form class="">
+            <div class="mt-5">
+                <div>
+                    <label class="p-2" for="">Name</label>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="w-[100%] border-2 border-blue-950 rounded-2xl p-2 m-2 outline-blue-600"
+                      required
+                    />
+            </div>
+        
+          </div>
+
+          <div class="mt-5">
+            <div>
+                <label class="p-2" for="">Email Address</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Email"
+                  class="w-[100%] border-2 border-blue-950 rounded-2xl p-2 m-2 outline-blue-600"
+                  required
+                />
+              </div>
+          </div>
+
+          <div class="mt-5">
+            <div class="flex flex-row justify-between">
+                <div>
+                    <label class="p-2" for="">Password</label>
+                  </div>
+                  <div>
+                    <a class="text-blue-700" href="#">Forgotten Password?</a>
+                  </div>
+              </div>
+              
+              <div>
+                <input
+                  type="text"
+                  placeholder="*********"
+                  class="w-[100%] border-2 border-blue-950 rounded-2xl p-2 m-2 outline-blue-600"
+                  required
+                />
+              </div>
+          </div>
+          <div class="flex flex-row gap-4 mt-5 p-4">
+            <input type="checkbox" name="" id="" />
+            <p class="remember">I agree to the <a class="text-blue-700 underline" href="#">Terms & Conditions</a></p>
+          </div>
+         
+          <div class="mt-5 bg-blue-700 rounded-2xl">
+            <button class="w-[100%] p-2 text-white cursor-pointer">Login</button>
+          </div>
+          <div class="mt-5">
+            <p>Have an account? <a class="text-blue-700" href="#">Sign in</a></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
